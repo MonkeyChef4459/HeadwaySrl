@@ -412,8 +412,18 @@ a:hover{
         margin: 0;
     }
 
-    #foto1,#foto2,#foto3{
-        width: 30%;
+    #foto2,#foto3{
+        width: 26%;
+        margin-top: 60px;
+    }
+
+    #foto1{
+        width: 27%;
+        margin-top: 140px;
+    }
+
+    #foto1d,#foto2d,#foto3d{
+        font-size: 28px;
     }
 
     #sx{

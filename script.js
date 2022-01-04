@@ -20,4 +20,4 @@ function tog(x){
     }
 }
 
-$("#schermata_caricamento").fadeOut(100);
+$("#schermata_caricamento").fadeOut(500);

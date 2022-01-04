@@ -377,6 +377,7 @@ a:hover{
     background-image:url("caricamento.gif");
     background-repeat:no-repeat;
     background-position:center;
+    display: block;
 }
 
 

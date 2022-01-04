@@ -19,3 +19,5 @@ function tog(x){
         pag.style.opacity = "70%";
     }
 }
+
+$("#schermata_caricamento").fadeOut(500);

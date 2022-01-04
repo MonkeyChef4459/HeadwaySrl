@@ -1,0 +1,378 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #E8F1F5;
+    background-color: #E8F1F5;
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sub{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #E8F1F5;
+}
+
+a:hover{
+    color: black;
+}
+
+#menu{
+    background-color: #004A7C;
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    opacity: 0;
+    float: right;
+    transition: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#items{
+    margin: 50px 5px 5px 60px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    border-bottom: 0.5px solid #E8F1F5;
+}
+
+#item1{
+    font-size: 40px;
+    margin: 5px;
+    color: hsl(198, 41%, 61%);
+}
+
+#item{
+    font-size: 40px;
+    color: #E8F1F5;
+    margin: 5px;
+}
+
+#item:hover,#item1:hover{
+    color: hsl(198, 68%, 45%);
+} 
+
+#logo_menu{
+    margin: 60px 5px 5px 60px;
+    border-bottom: 0.5px solid white;
+    padding-bottom: 50px;
+}
+
+#logo_menu_im{
+    width: 150px;
+}
+
+#info{
+    font-size: 15px;
+    margin: 10px;
+}
+
+#icons_menu{
+    margin: 15px auto auto 65px;
+}
+
+#icon_menu{
+    width: 35px;
+    margin: 5px;
+}
+
+.cont:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cont{
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    z-index: 4;
+}
+
+.line1,.line2{
+    width: 35px;
+    height: 2px;
+    background-color: #E8F1F5;
+    margin: 4px auto auto 5px;
+    transition: 0.7s;
+}
+
+.line1{
+    margin-top: 19px;
+}
+
+.change .line1{
+    transform: rotate(-225deg) translate(2px,-2px);
+}
+
+.change .line2{
+    transform: rotate(225deg) translate(2px,3px);
+}
+
+#menu,#more,#more1,#more2{
+    cursor: pointer;
+}
+
+#page1{
+    height: 100%;
+    background-color: #004A7C;
+    background-image: url("/Users/monkeychef/Documents/immagini/img_prova2.png");
+    background-size: 100%;
+    transition: 0.5s;
+    background-attachment: fixed;
+}
+
+#page2{
+    background-color: #004A7C;
+    background-size: 100%;
+    height: 520px;
+}
+
+#page3{
+    height: 380px;
+}
+
+#page4{
+    background-color: #004A7C;
+    height: 600px;
+}
+
+#page5{
+    height: 250px;
+    color: #004A7C;
+}
+
+#up{
+    height: 100px;
+}
+
+#left,#sx1,#sx,#more,#linea,#more1,#linea1,#sx2,#linea3,#more2,#titolo4{
+    float: left;
+}
+
+
+.cont,#dx1,#subtitle,#subtitle1,#dx2,#logo_down{
+    float: right;
+}
+
+#logo{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 250px;
+}
+
+#sx{
+    height: 350px;
+    margin: 130px 0 0 115px;
+}
+
+#introduzione,#titolo3{
+    margin: 0;
+    font-size: 65px;
+}
+
+#titolo,#titolo1{
+    font-size: 60px;
+    margin: 0;
+}
+
+#more,#more1,#more2{
+    transition: 0.3s;
+    border: 1px solid #E8F1F5;
+}
+
+#more:hover,#more1:hover,#more2:hover{
+    border: none;
+    background-color: #dee7eb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#more{
+    font-size: 15px;
+    padding: 12px 30px 12px 30px;   
+    margin-top: 10px;
+}
+
+#more:hover{
+    margin-left: 1px;
+}
+
+#img{
+    margin: 130px auto auto 70px;
+    height: 500px;
+    width: 600px;
+}
+
+#dx1{
+    margin: 60px 150px auto auto;
+    height: 350px;
+}
+
+#titolo1{
+    margin-bottom: 15px;
+}
+
+#linea{
+    margin: 10px 0 auto 5px;
+    width: 35px;
+    height: 150px;
+    border-top: #E8F1F5 1px solid;
+}
+
+#subtitle{
+    margin: 2px 82px 20px 0;
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+}
+
+#more1{
+    margin: 25px auto auto 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+#more1:hover{
+    margin-left: 16px;
+}
+
+#more2{
+    padding: 10px 20px 10px 20px;
+    margin-top: 0;
+}
+
+#more2:hover{
+    margin-left: 1px;
+}
+
+#sx1,#dx2{
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+}
+
+#sx1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 80px auto auto 50px;
+    width: 600px;
+    height: 500px;
+    background-image: url("business.png");
+    text-align: center;
+}
+
+#sx2{
+    margin: 140px auto auto 190px;
+    width: 400px;
+}
+
+#dx2{
+    height: 600px;
+    width: 500px;
+    margin: -80px 100px auto auto;
+    background-image: url("startup.png");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#linea3{
+    width: 35px;
+    height: 150px;
+    border-top: 1px solid #E8F1F5;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+#subtitle2{
+    width: 400px;
+    line-height: 20px;
+}
+
+#titolo4{
+    margin: 30px auto 20px 50px;
+}
+
+#logo_down{
+    margin: 30px 50% auto auto;
+    width: 200px;
+}
+
+#contatti{
+    clear: both;
+    font-size: 18px;
+    margin: 5px auto auto 50px;
+}
+
+#icons{
+    margin-left: 10px;
+}
+
+#icon{
+    float: right;
+    width: 40px;
+    margin: 5px;
+}
+
+#one{
+    height: 250px;
+    width: 300px;
+    margin: 170px auto auto 130px;
+    text-align: center;
+}
+
+#foto1{
+    width: 153px;
+    margin-top: 20px;
+}
+
+#two{
+    height: 250px;
+    width: 300px;
+    margin: -252px auto auto 565px;
+    text-align: center;
+}
+
+#foto2{
+    width: 120px;
+}
+
+#foto1d,#foto2d,#foto3d{
+    font-size: 18px;
+    color: #004A7C;
+}
+
+#foto2d{
+    margin-top: 28px;
+}
+
+#three{
+    height: 250px;
+    width: 300px;
+    margin: -252px auto auto 1000px;
+    text-align: center;
+}
+
+#foto3{
+    width: 120px;
+}
+
+#foto3d{
+    margin-top: 36px;
+}
+
+#prova{
+    border: solid black;
+    width: 1250px;
+}
+
+
+
+
+

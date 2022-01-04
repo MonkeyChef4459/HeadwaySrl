@@ -1,0 +1,169 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #E8F1F5;
+    background-color: #E8F1F5;
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#page1{
+    background-color: #004A7C;
+    height: 100%;
+    transition: 0.5s;
+}
+
+#up{
+    height: 100px;
+}
+
+#logo{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 250px;
+}
+
+a{
+    text-decoration: none;
+    color: #E8F1F5;
+}
+
+#menu{
+    background-color: #004A7C;
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    opacity: 0;
+    float: right;
+    transition: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#items{
+    margin: 50px 5px 5px 60px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    border-bottom: 0.5px solid #E8F1F5;
+}
+
+#item1{
+    font-size: 40px;
+    margin: 5px;
+    color: hsl(198, 41%, 61%);
+}
+
+#item{
+    font-size: 40px;
+    color: #E8F1F5;
+    margin: 5px;
+}
+
+#item:hover,#item1:hover{
+    color: hsl(198, 68%, 45%);
+} 
+
+#logo_menu{
+    margin: 60px 5px 5px 60px;
+    border-bottom: 0.5px solid white;
+    padding-bottom: 50px;
+}
+
+#logo_menu_im{
+    width: 150px;
+}
+
+#info{
+    font-size: 15px;
+    margin: 10px;
+}
+
+#icons_menu{
+    margin: 15px auto auto 65px;
+}
+
+#icon_menu{
+    width: 35px;
+    margin: 5px;
+}
+
+.cont:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cont{
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    z-index: 4;
+    float: right;
+}
+
+.line1,.line2{
+    width: 35px;
+    height: 2px;
+    background-color: #E8F1F5;
+    margin: 4px auto auto 5px;
+    transition: 0.7s;
+}
+
+.line1{
+    margin-top: 19px;
+}
+
+.change .line1{
+    transform: rotate(-225deg) translate(2px,-2px);
+}
+
+.change .line2{
+    transform: rotate(225deg) translate(2px,3px);
+}
+
+#sx{
+    width: 600px;
+    margin: 120px auto auto 60px;
+    float: left;
+}
+
+#titolo{
+    font-size: 60px;
+}
+
+#linea{
+    margin: 10px 0 auto 5px;
+    height: 100px;
+    width: 35px;
+    border-top: solid 1px #E8F1F5;
+    float: left;
+}
+
+#intro{
+    width: 540px;
+    float: right;
+    margin: 0;
+}
+
+#img_inv{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 550px;
+    float: right;
+    margin: 90px;
+}
+
+#page2{
+    height: 1000px;
+
+}
+
+
+
+

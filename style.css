@@ -125,7 +125,7 @@ a:hover{
 #page1{
     height: 100%;
     background-color: #004A7C;
-    background-image: url("/Users/monkeychef/Documents/immagini/img_prova2.png");
+    background-image: url("img_prova2.png");
     background-size: 100%;
     transition: 0.5s;
     background-attachment: fixed;

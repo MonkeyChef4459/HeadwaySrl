@@ -383,12 +383,27 @@ a:hover{
 
 @media screen and (max-width: 1025px){
 
+    #page1{
+        height: 1150px;
+        background-attachment: unset;
+    }
+
+    #page2{
+        height: 1100px;
+    }
+
     #page3{
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 1500px;
         width: 100%;
+    }
+
+    #sx1{
+        width: 89%;
+        background-attachment: unset;
+        background-image: url("business_mob.png");
     }
 
     #one,#two,#three{
@@ -399,6 +414,59 @@ a:hover{
 
     #foto1,#foto2,#foto3{
         width: 30%;
+    }
+
+    #sx{
+        height: 350px;
+        margin: 500px 0 0 115px;
+    }
+
+    #introduzione{
+        font-size: 80px;
+    }
+
+    #sub{
+        font-size: 25px;
+    }
+
+    #more{
+        font-size: 25px;
+        padding: 15px 33px 15px 33px;   
+        margin-top: 10px;
+    }
+
+    #dx1{
+        float: left;
+        margin: 40px auto auto 60px;
+        height: 350px;
+    }
+
+    #titolo,#titolo1{
+        font-size: 70px;
+    }
+
+    #subtitle{
+        font-size: 25px;
+        margin: 2px 82px 80px 0;
+        width: 600px;
+        height: 150px;
+        line-height: 30px;
+    }
+
+    #linea{
+        margin-right: 30px;
+        width: 50px;
+        height: 250px;
+    }
+
+    #more1{
+        font-size: 25px;
+        margin: 25px auto auto 0;
+        padding: 10px 20px 10px 20px;
+    }
+
+    #more1:hover{
+        margin-left: 0;
     }
 }
 

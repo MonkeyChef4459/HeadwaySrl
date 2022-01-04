@@ -3,11 +3,25 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.typekit.net/ect0ndf.css">
+        <script>
+        (function(){   
+            if (window.addEventListener)
+            {
+              window.addEventListener("load", nascondi_loading_screen, false);    
+            }else{
+              window.attachEvent("onload", nascondi_loading_screen);
+            }
+          })();
+          function nascondi_loading_screen()
+          {
+            document.getElementById("loading_screen").style.display = 'none';
+          }
+          </script>
         <title>Headway Srl</title>
     </head>
 
     <body id="body">
-        <div id="schermata_caricamento"></div>
+        <div id="loading_screen"></div>
         <div id="menu">
             <div id="items">
                 <a href="index.html" id="item1">Home</a>
@@ -93,7 +107,6 @@
             <img id="icon" src="twitter.png">
         </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js">$("#schermata_caricamento").fadeOut(500);</script>
         <script src="script.js"></script>
     </body>
 </html>

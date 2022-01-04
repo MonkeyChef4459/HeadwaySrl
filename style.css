@@ -367,7 +367,7 @@ a:hover{
     margin-top: 36px;
 }
 
-#schermata_caricamento {
+#loading_screen{
     width: 100%;
     height:100%;
     position:fixed;

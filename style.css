@@ -400,6 +400,14 @@ a:hover{
         width: 100%;
     }
 
+    #page4{
+        height: 1150px;
+    }
+
+    #logo{
+        width: 50%;
+    }
+
     #sx1{
         width: 89%;
         background-attachment: unset;
@@ -435,7 +443,7 @@ a:hover{
         font-size: 80px;
     }
 
-    #sub{
+    #sub,{
         font-size: 25px;
     }
 
@@ -451,11 +459,11 @@ a:hover{
         height: 350px;
     }
 
-    #titolo,#titolo1{
+    #titolo,#titolo1,#titolo3{
         font-size: 70px;
     }
 
-    #subtitle{
+    #subtitle,#subtitle2{
         font-size: 25px;
         margin: 2px 82px 80px 0;
         width: 600px;
@@ -463,13 +471,13 @@ a:hover{
         line-height: 30px;
     }
 
-    #linea{
+    #linea,#linea3{
         margin-right: 30px;
         width: 50px;
         height: 250px;
     }
 
-    #more1{
+    #more1,#more2{
         font-size: 25px;
         margin: 25px auto auto 0;
         padding: 10px 20px 10px 20px;
@@ -477,6 +485,23 @@ a:hover{
 
     #more1:hover{
         margin-left: 0;
+    }
+
+    #more2{
+        margin: 0;
+    }
+
+    #dx2{
+        float: left;
+        width: 87%;
+        margin: 60px auto auto 60px;
+        background-image: url("startup_mob.png");
+        background-attachment: unset;
+    }
+
+    #sx2{
+        margin: 40px auto auto 70px;
+        width: 400px;
     }
 }
 

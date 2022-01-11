@@ -219,16 +219,16 @@ a:hover{
 }
 
 #linea{
-    margin: 10px 0 auto 5px;
+    margin: 10px 0 auto 0;
     width: 35px;
-    height: 150px;
+    height: 180px;
     border-top: #E8F1F5 1px solid;
 }
 
 #subtitle{
-    margin: 2px 82px 20px 0;
+    margin: 2px 82px 20px 15px;
     width: 400px;
-    height: 120px;
+    height: 140px;
     line-height: 20px;
 }
 

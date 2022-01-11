@@ -124,6 +124,7 @@ a:hover{
     background-repeat: no-repeat;
     transition: 0.5s;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 #page2{

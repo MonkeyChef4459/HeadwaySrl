@@ -316,64 +316,25 @@ a:hover{
     margin: 5px;
 }
 
-#one{
-    height: 250px;
-    width: 300px;
-    margin: 170px auto auto 130px;
-    text-align: center;
-}
-
-#foto1{
-    width: 153px;
-    margin-top: 20px;
-}
-
-#two{
-    height: 250px;
-    width: 300px;
-    margin: -252px auto auto 565px;
-    text-align: center;
-}
-
-#foto2{
-    width: 120px;
-}
-
-#foto1d,#foto2d,#foto3d{
-    font-size: 18px;
-    color: #004A7C;
-}
-
-#foto2d{
-    margin-top: 28px;
-}
-
-#three{
-    height: 250px;
-    width: 300px;
-    margin: -252px auto auto 1000px;
-    text-align: center;
-}
-
-#foto3{
-    width: 120px;
-}
-
-#foto3d{
-    margin-top: 36px;
-}
-
 #loading_screen{
     width: 100%;
     height:100%;
     position:fixed;
     top:0;
     left:0;
-    background-color:#fff;
+    background-color:rgb(255, 255, 255);
     background-image:url("caricamento.gif");
     background-repeat:no-repeat;
     background-position:center;
     display: block;
+}
+
+#tit_3{
+    margin-top: 100px;
+    color: #004A7C;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 27%;
 }
 
 @media screen and (max-width: 1025px){

@@ -130,7 +130,7 @@ a{
 
 #sx{
     width: 600px;
-    margin: 120px auto auto 60px;
+    margin: 100px auto auto 60px;
     float: left;
 }
 
@@ -160,13 +160,47 @@ a{
 }
 
 #page2{
+    height: 550px;
+    display: flex;
+}
+
+#on,#tw,#tr,#fo{
+    text-align: center;
+    color: #004A7C;
+    flex-basis: 400px;
+    height: 78%;
+    transition: 0.2s;
+    margin: 4% 2% auto 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#on:hover,#tw:hover,#tr:hover,#fo:hover{
+    box-shadow: 0 4px 8px 0 rgba(76, 190, 235, 0.2), 0 6px 20px 0 rgba(69, 157, 197, 0.19);
+}
+
+#uno,#due,#tre,#quattro{
+    width: 50px;
+    margin: 20px;
+}
+
+#tre,#quattro{
+    margin-top: 30px;
+}
+
+p{
+    margin: 5%;
+}
+
+#page3{
     height: 1000px;
-
+    background-color: #004a7cd8;
 }
 
-#uno,#due,#tre{
-    width: 6%;
-}
+
+
+
+
+
 
 
 

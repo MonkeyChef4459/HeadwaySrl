@@ -134,7 +134,7 @@ a:hover{
 }
 
 #page3{
-    height: 380px;
+    height: 580px;
 }
 
 #page4{
@@ -335,6 +335,13 @@ a:hover{
     font-style: italic;
     font-size: 30px;
     margin-left: 27%;
+}
+
+#text{
+    color: #004A7C;
+    width: 70%;
+    margin: 0 auto auto 3.7%;
+    line-height: 20px;
 }
 
 @media screen and (max-width: 1025px){

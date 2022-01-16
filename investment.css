@@ -52,16 +52,10 @@ a{
     border-bottom: 0.5px solid #E8F1F5;
 }
 
-#item1{
-    font-size: 40px;
-    margin: 5px;
-    color: hsl(198, 41%, 61%);
-}
-
-#item{
+#item,#item1{
     font-size: 40px;
     color: #E8F1F5;
-    margin: 5px;
+    margin: 5px 150px 5px 5px;
 }
 
 #item:hover,#item1:hover{
@@ -92,10 +86,6 @@ a{
     margin: 5px;
 }
 
-.cont:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .cont{
     height: 45px;
     width: 45px;
@@ -108,7 +98,7 @@ a{
     float: right;
 }
 
-.line1,.line2{
+.line1,.line2,.line3{
     width: 35px;
     height: 2px;
     background-color: #E8F1F5;
@@ -121,11 +111,15 @@ a{
 }
 
 .change .line1{
-    transform: rotate(-225deg) translate(2px,-2px);
+    transform: rotate(-225deg) translate(5px,-3px);
 }
 
 .change .line2{
-    transform: rotate(225deg) translate(2px,3px);
+    transform: rotate(225deg) translate(5px,4px);
+}
+
+.change .line3{
+    transform: translateX(500px);
 }
 
 #sx{
@@ -194,6 +188,10 @@ p{
 #page3{
     height: 1000px;
     background-color: #004a7cd8;
+}
+
+@media screen and (max-width: 1025px){
+    
 }
 
 

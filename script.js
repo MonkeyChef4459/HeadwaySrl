@@ -17,6 +17,7 @@ function tog(x){
         home.style.opacity = "100%";
     }else if(body.style.overflow != "hidden" && schermo>1025){
         menu.style.opacity = "100%";
+        menu.style.display = "block";
         body.style.overflow = "hidden";
         home.style.transform = "translateX(-30%)";
         sub.style.display = "none";
@@ -24,6 +25,7 @@ function tog(x){
     }else if(body.style.overflow != "hidden" && schermo<1025){
         home.style.transform = "translateX(-100%)";
         menu.style.opacity = "100%";
+        menu.style.display = "block";
         body.style.overflow = "hidden";
         page2.style.display = "none";
         page3.style.display = "none";

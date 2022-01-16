@@ -191,7 +191,41 @@ p{
 }
 
 @media screen and (max-width: 1025px){
+
+    #logo{
+        width: 50%;
+    }
+
+    #img_inv{
+        width: 88%;
+        float: left;
+        margin: 150px auto auto 60px;
+    }
+
+    .change .line1{
+        transform: rotate(-225deg) translate(10px,-6px);
+    }
     
+    .change .line2{
+        transform: rotate(225deg) translate(10px,8px);
+    }
+
+    .cont{
+        height: 100px;
+        width: 100px;
+        top: 70px;
+        right: 40px;
+    }
+    
+    .line1,.line2,.line3{
+        width: 80px;
+        height: 4px;
+        margin: 9px auto auto 0;
+    }
+    
+    .line1{
+        margin-top: 22px;
+    }
 }
 
 

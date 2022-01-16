@@ -512,26 +512,28 @@ a:hover{
     }
 
     .cont{
-        height: 75px;
-        width: 75px;
-        border-radius: 30px;
-        cursor: pointer;
-        position: absolute;
+        height: 100px;
+        width: 100px;
         top: 70px;
         right: 40px;
-        z-index: 4;
     }
     
     .line1,.line2,.line3{
-        width: 60px;
-        height: 3px;
-        background-color: #E8F1F5;
-        margin: 4px auto auto 5px;
-        transition: 0.7s;
+        width: 80px;
+        height: 4px;
+        margin: 9px auto auto 0;
     }
     
     .line1{
-        margin-top: 19px;
+        margin-top: 22px;
+    }
+
+    .change .line1{
+        transform: rotate(-225deg) translate(10px,-6px);
+    }
+    
+    .change .line2{
+        transform: rotate(225deg) translate(10px,8px);
     }
 }
 

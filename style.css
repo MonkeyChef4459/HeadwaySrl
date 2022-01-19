@@ -33,7 +33,6 @@ a:hover{
     float: right;
     transition: 1s;
     display: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #items{
@@ -79,8 +78,8 @@ a:hover{
 }
 
 .cont{
-    border-radius: 30px;
     cursor: pointer;
+    height: 50px;
     position: absolute;
     top: 50px;
     right: 50px;
@@ -273,7 +272,7 @@ a:hover{
     height: 600px;
     width: 500px;
     margin: -80px 100px auto auto;
-    background-image: url("startup.png");
+    background-image: url("startup.jpeg");
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -469,8 +468,9 @@ a:hover{
         float: left;
         width: 87%;
         margin: 60px auto auto 60px;
-        background-image: url("startup_mob.png");
+        background-image: url("startup.jpeg");
         background-attachment: unset;
+        background-position: center;
     }
 
     #sx2{

@@ -157,6 +157,7 @@ a{
 }
 
 #on,#tw,#tr,#fo{
+    cursor: pointer;
     text-align: center;
     color: #004A7C;
     flex-basis: 400px;
@@ -181,6 +182,16 @@ a{
 
 p{
     margin: 5%;
+}
+
+#back{
+    position: absolute;
+    top: 750px;
+    left: 25px;
+    width: 30px;
+    transform: rotate(180deg);
+    display: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1025px){
@@ -230,6 +241,7 @@ p{
     #page2{
         flex-direction: column;
         height: 2000px;
+        display: grid;
     }
 
     #menu{

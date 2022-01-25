@@ -40,11 +40,12 @@ html,body{
 }
   
 .flip-card-back {
-    background-color: #004A7C;
+    background-color: #E8F1F5;
     color: white;
     transform: rotateY(180deg);
     border-radius: 5px;
     border: 1px solid #E8F1F5;
+    color: #004A7C;
 }
 
 #logo{

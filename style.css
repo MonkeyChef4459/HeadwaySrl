@@ -10,6 +10,109 @@ html,body{
     font-style: normal;
 }
 
+#contact{
+    position: fixed;
+    z-index: 99;
+    height: 600px;
+    width: 1000px;
+    top: 200%;
+    left: 15%;
+    box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.342), 0 36px 120px 0 rgba(0, 0, 0, 0.336);
+    background-color: #004A7C;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#icon_back{
+    width: 25px;
+    margin: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.t{
+    position: absolute;
+    top: 12%;
+    left: 5%
+}
+
+.d{
+    float: right;
+}
+
+#left_back{
+    float: left;
+    border: black 1px solid;
+    padding-top: 100px;
+}
+
+#right_back{
+    float: right;
+    padding-right: 200px;
+    border: black 1px solid;
+    overflow: scroll;
+    height: 300px;
+}
+
+#he{
+    margin: 10px;
+}
+
+#nome{
+    height: 20px;
+    width: 190px;
+    padding: 7px;
+    margin: 8px;
+    background-color: #2c749693;
+    color: #E8F1F5;
+    border: none;
+}
+
+::placeholder {
+    color: #E8F1F5;
+    opacity: 1;
+}
+  
+:-ms-input-placeholder {
+    color: #E8F1F5;
+}
+  
+::-ms-input-placeholder {
+    color: #E8F1F5;
+}
+
+#messaggio{
+    width: 414px;
+    height: 180px;
+    padding: 7px;
+    border: none;
+    margin: 8px;
+    background-color: #2c749693;
+    color: #E8F1F5;
+}
+
+#invia{
+    margin: 8px;
+    padding: 12px 30px 12px 30px;
+    border: none;
+    background-color: #2c749693;
+    color: #E8F1F5;
+    cursor: pointer;
+}
+
+#nome:hover,#messaggio:hover,#invia:hover{
+    transition: 0.5s;
+    background-color: #00557c70;
+}
+
+#right_contact{
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    height: 433px;
+    width: 420px;
+}
+
 #sub{
     font-size: 18px;
 }
@@ -294,7 +397,7 @@ a:hover{
 }
 
 #logo_down{
-    margin: 30px 50% auto auto;
+    margin: 30px 0 20px 40px;
     width: 200px;
 }
 
@@ -342,6 +445,7 @@ a:hover{
     margin: 0 auto auto 3.7%;
     line-height: 20px;
 }
+
 
 @media screen and (max-width: 1025px){
 
@@ -531,6 +635,51 @@ a:hover{
     .change .line3{
         transform: translateX(0);
         opacity: 0;
+    }
+
+    #contact{
+        height: 100%;
+        width: 100%;
+        top: 200%;
+        left: 0;
+    }
+
+    #icon_back{
+        width: 50px;
+        margin: 40px;
+    }
+
+    #nome{
+        height: 40px;
+        width: 35%;
+        margin: 10px;
+        font-size: 19px;
+    }
+
+    .t{
+        top: 7%;
+        left: 12%;
+        width: 100%;
+    }
+
+    #right_contact{
+        top: 800px;
+        left: 12%;
+        height: 433px;
+        width: 420px;
+    }
+
+    #messaggio{
+        width: 73.9%;
+        height: 180px;
+        margin: 10px;
+        font-size: 19px;
+    }
+    
+    #invia{
+        margin: 10px;
+        padding: 15px 34px 15px 34px;
+        font-size: 19px;
     }
 }
 

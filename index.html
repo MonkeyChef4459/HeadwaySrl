@@ -21,12 +21,30 @@
     </head>
 
     <body id="body">
+
+<div id="contact">
+    <img id="icon_back" onclick="chiudifooter()" src="back.png">
+    <form class="t" action="https://www.headwaysrl.it/send.php" method="POST">
+        <h1 id="he">Contattaci per Informazioni</h1>
+        <input id="nome" type="text" name="name" placeholder="Nome">
+        <input id="nome" type="text" name="cognome" placeholder="Cognome"><br>
+        <input id="nome" type="email" name="email" placeholder="Mail">
+        <input id="nome" type="tel" name="tel" placeholder="Telefono"><br>
+        <textarea id="messaggio" name="message" type="text" placeholder="Scrivi qui il tuo messaggio"></textarea><br>
+        <input id="invia" type="submit">
+    </form>
+    <div id="right_contact">
+        <h1 id="he">Heawaysrl.it</h1>
+        <p>N.Iva 94301u0923</p>
+        <p></p>
+    </div>
+</div>
         <div id="loading_screen"></div>
         <div id="menu">
             <div id="items">
                 <a href="index.html" id="item1">Home</a>
                 <a href="investment.html" id="item">Investi</a>
-                <a href="contatti.html" id="item">Contatti</a>
+                <a onclick="contatti()" id="item">Contatti</a>
                 <a href="" id="item">About</a>
             </div>
             <div id="logo_menu">
@@ -88,15 +106,27 @@
             </div>
         </div>
         <div id="page5">
-            <h1 id="titolo4">Invest Better<br>Contact Us</h1>
-            <img src="logo_down.png" id="logo_down">
-            <p id="contatti">+3933123456789</p>
-            <p id="contatti">njadsf@gmail.com</p>
-        <div id="icons">
-            <img id="icon" src="instagram.png">
-            <img id="icon" src="facebook.png">
-            <img id="icon" src="whatsapp.png">
-            <img id="icon" src="twitter.png">
+            <div id="left_back">
+                <img src="logo_down.png" id="logo_down">
+                <p id="contatti">+3933123456789</p>
+                <p id="contatti">njadsf@gmail.com</p>
+            </div>
+            <div id="right_back">
+                <form class="d" action="https://www.headwaysrl.it/mail.php" method="POST">
+                    <h1 id="he">Contattaci per Informazioni</h1>
+                    <input id="nome" type="text" name="nome" placeholder="Nome">
+                    <input id="nome" type="text" name="cognome" placeholder="Cognome"><br>
+                    <input id="nome" type="email" name="mail" placeholder="Mail">
+                    <input id="nome" type="tel" name="tel" placeholder="Telefono"><br>
+                    <textarea id="messaggio" name="messaggio" type="text" placeholder="Scrivi qui il tuo messaggio"></textarea><br>
+                    <input id="invia" type="submit">
+                </form>
+            <div id="icons">
+                <img id="icon" src="instagram.png">
+                <img id="icon" src="facebook.png">
+                <img id="icon" src="whatsapp.png">
+                <img id="icon" src="twitter.png">
+            </div>
         </div>
         </div>
         <script src="script.js"></script>

@@ -104,5 +104,16 @@ function chiudi(){
     uno.style.cursor = due.style.cursor = tre.style.cursor = quattro.style.cursor = "pointer";
 }
 
+function contatti(){
+    if(schermo>1025){
+        document.getElementById("contact").style.top = "8%";
+    }else{
+        document.getElementById("contact").style.top = "5%";
+    }
+}
+
+function chiudifooter(){
+    document.getElementById("contact").style.top = "300%";
+}
 
 

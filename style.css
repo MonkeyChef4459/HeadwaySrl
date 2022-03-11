@@ -19,7 +19,6 @@ html,body{
     left: 15%;
     box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.342), 0 36px 120px 0 rgba(0, 0, 0, 0.336);
     background-color: #004A7C;
-    border-radius: 8px;
     transition: 0.3s;
 }
 

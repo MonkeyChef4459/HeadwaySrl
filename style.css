@@ -20,6 +20,7 @@ html,body{
     box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.342), 0 36px 120px 0 rgba(0, 0, 0, 0.336);
     background-color: #004A7C;
     transition: 0.3s;
+    border-radius: 8px;
 }
 
 #icon_back{
@@ -65,7 +66,6 @@ html,body{
     background-color: #2c749693;
     color: #E8F1F5;
     border: none;
-    border-radius: 0;
 }
 
 ::placeholder {
@@ -89,7 +89,6 @@ html,body{
     margin: 8px;
     background-color: #2c749693;
     color: #E8F1F5;
-    border-radius: 0;
 }
 
 #invia{
@@ -99,7 +98,6 @@ html,body{
     background-color: #2c749693;
     color: #E8F1F5;
     cursor: pointer;
-    border-radius: 0;
 }
 
 #nome:hover,#messaggio:hover,#invia:hover{
@@ -682,6 +680,7 @@ a:hover{
         margin: 10px;
         padding: 15px 34px 15px 34px;
         font-size: 19px;
+        border-radius: 0;
     }
 }
 

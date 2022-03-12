@@ -65,6 +65,7 @@ html,body{
     background-color: #2c749693;
     color: #E8F1F5;
     border: none;
+    border-radius: 0;
 }
 
 ::placeholder {
@@ -88,6 +89,7 @@ html,body{
     margin: 8px;
     background-color: #2c749693;
     color: #E8F1F5;
+    border-radius: 0;
 }
 
 #invia{
@@ -97,6 +99,7 @@ html,body{
     background-color: #2c749693;
     color: #E8F1F5;
     cursor: pointer;
+    border-radius: 0;
 }
 
 #nome:hover,#messaggio:hover,#invia:hover{

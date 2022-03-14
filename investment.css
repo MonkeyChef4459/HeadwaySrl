@@ -189,7 +189,6 @@ p{
     top: 750px;
     left: 25px;
     width: 30px;
-    transform: rotate(180deg);
     display: none;
     cursor: pointer;
 }
@@ -303,6 +302,13 @@ p{
 
     p{
         font-size: 28px;
+    }
+
+    #back{
+        top: 1740px;
+        left: auto;
+        right: 35px;
+        width: 50px;
     }
 }
 

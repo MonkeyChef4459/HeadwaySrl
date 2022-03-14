@@ -20,11 +20,41 @@
               </script>
     </head>
 <body id="body">
+
+  <div id="contact">
+    <img id="icon_back" onclick="chiudifooter()" src="back.png">
+    <form class="t" action="https://www.headwaysrl.it/send.php" method="POST">
+        <h1 id="he">Contattaci per Informazioni</h1>
+        <input id="nome" type="text" name="name" placeholder="Nome">
+        <input id="nome" type="text" name="cognome" placeholder="Cognome"><br>
+        <input id="nome" type="email" name="email" placeholder="Mail">
+        <input id="nome" type="tel" name="tel" placeholder="Telefono"><br>
+        <textarea id="messaggio" name="message" type="text" placeholder="Scrivi qui il tuo messaggio"></textarea><br>
+        <input id="invia" type="submit">
+    </form>
+    <div id="right_contact">
+        <h1>Heawaysrl.it</h1>
+        <p id="iva">N.Iva 94301u0923</p>
+        <div id="sede">
+            <h3>Ufficio Brescia</h3>
+            <p id="ind">Via prova 1</p>
+            <p id="ind">25121</p>
+        </div>
+        <div id="sede">
+            <h3>Contatti</h3>
+            <p id="ind">Telefono: 03084555</p>
+            <p id="ind">Email: uffici@headwaysrl.it</p>
+            <p id="ind">Sito: www.headwaysrl.it</p>
+        </div>
+    </div>
+</div>
+    <div id="loading_screen"></div>
+
   <div id="menu">
     <div id="items">
         <a href="index.html" id="item1">Home</a>
         <a href="investment.html" id="item">Investi</a>
-        <a href="contatti.html" id="item">Contatti</a>
+        <a onclick="contatti()" id="item">Contatti</a>
         <a href="" id="item">Info</a>
     </div>
     <div id="logo_menu">

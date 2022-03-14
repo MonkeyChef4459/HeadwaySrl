@@ -309,6 +309,18 @@ p{
         left: auto;
         right: 35px;
         width: 50px;
+        padding: 10px;
+    }
+
+    #on,#tw,#tr,#fo{
+        cursor: pointer;
+        text-align: center;
+        color: #004A7C;
+        flex-basis: 400px;
+        height: 78%;
+        transition: 0.2s;
+        margin: 4% 2% auto 2%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 

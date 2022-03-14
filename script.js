@@ -102,6 +102,7 @@ function chiudi(){
     uno.style.height = due.style.height = tre.style.height = quattro.style.height = "78%";
     uno.style.margin = due.style.margin = tre.style.margin = quattro.style.margin = "4% 2% auto 2%";
     uno.style.cursor = due.style.cursor = tre.style.cursor = quattro.style.cursor = "pointer";
+    uno.style.width = due.style.width = tre.style.width = quattro.style.width = "auto";
 }
 
 function contatti(){

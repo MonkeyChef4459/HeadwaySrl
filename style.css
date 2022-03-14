@@ -54,10 +54,6 @@ html,body{
     height: 300px;
 }
 
-#he{
-    margin: 10px;
-}
-
 #nome{
     height: 20px;
     width: 190px;
@@ -110,7 +106,19 @@ html,body{
     top: 12%;
     right: 5%;
     height: 433px;
-    width: 420px;
+    width: 350px;
+}
+
+#iva{
+    margin-top: 30px;
+}
+
+#sede{
+    margin-top: 30px;
+}
+
+#ind{
+    margin: 0;
 }
 
 #sub{

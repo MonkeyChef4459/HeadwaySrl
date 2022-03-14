@@ -642,7 +642,7 @@ a:hover{
         width: 100%;
         top: 200%;
         left: 0;
-        border-radius: 0;
+        border-radius: 8px;
     }
 
     #icon_back{

@@ -52,15 +52,11 @@ function open1(){
     if(uno.style.height != "100%"){
         page2.style.display = "block";
         uno.style.width = "100%";
+        uno.style.height = "100%";
         uno.style.margin = "0";
         due.style.display = tre.style.display = quattro.style.display = "none";
         document.getElementById("back").style.display = "block";
         uno.style.cursor = "auto";
-    }if(schermo>1025){
-        uno.style.height = "100%";
-    }
-    if(schermo<1025){
-        uno.style.height = hscreen;
     }
 }
 
@@ -73,8 +69,6 @@ function open2(){
         uno.style.display = tre.style.display = quattro.style.display = "none";
         document.getElementById("back").style.display = "block";
         due.style.cursor = "auto";
-    }else if(schermo<1025){
-        due.style.height = hscreen;
     }
 }
 
@@ -87,8 +81,6 @@ function open3(){
         uno.style.display = due.style.display = quattro.style.display = "none";
         document.getElementById("back").style.display = "block";
         tre.style.cursor = "auto";
-    }else if(schermo<1025){
-        tre.style.height = hscreen;
     }
 }
 
@@ -101,8 +93,6 @@ function open4(){
         uno.style.display = tre.style.display = due.style.display = "none";
         document.getElementById("back").style.display = "block";
         quattro.style.cursor = "auto";
-    }else if(schermo<1025){
-        quattro.style.height = hscreen;
     }
 }
 
